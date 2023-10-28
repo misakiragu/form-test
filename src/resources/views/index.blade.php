@@ -151,7 +151,7 @@
                     </div>
                     <div class="form__group-content">
                         <div class="form__input--textarea">
-                            <textarea name="content" >{{ old('content') }}</textarea>
+                            <textarea name="content">{{ old('content') }}</textarea>
                         </div>
                         <div class="form__error">
                             @error('content')
